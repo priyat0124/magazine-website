@@ -1,0 +1,105 @@
+.view-page {
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  background: #FAF6E9;
+  min-height: 100vh;
+}
+
+.view-page h2 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.view-page ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.view-page li {
+  background-color: #FFFDF6;
+  padding: 12px 18px;
+  margin-bottom: 10px;
+  border-left: 5px solid #A0C878;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-page a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.view-page button {
+  margin-left: 10px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.view-page button:hover {
+  background-color: #c0392b;
+}
+
+.mode-selector {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.mode-selector button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #A0C878;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.mode-selector button:hover {
+  background-color: #8dbd63;
+}
+
+.owner-login {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.owner-login input {
+  padding: 10px;
+  width: 260px;
+  margin: 10px auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.owner-login .login-btn {
+  padding: 8px 20px;
+  background-color: #A0C878;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.owner-login .login-btn:hover {
+  background-color: #8dbd63;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
